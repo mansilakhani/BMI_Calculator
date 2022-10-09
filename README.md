@@ -1,16 +1,13 @@
-# mansi_bmi_calc
+# Animator_BMI_ Calculator
 
-A new Flutter project.
+A BMI Calculator Flutter project.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+<img src="https://user-images.githubusercontent.com/111499824/194775942-ff2ffca6-63c4-4f56-8619-00077692e894.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/111499824/194775982-9dfb72f7-4b14-48bf-a0cc-12e79db7141b.png)
+" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/111499824/194775998-9a5b5a00-2736-4844-8e8d-221665e812d4.png)
+" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
