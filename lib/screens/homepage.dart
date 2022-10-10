@@ -32,6 +32,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late Animation<Offset> weightanimation;
   late Animation<Offset> ageanimation;
   late Animation<Offset> calcanimation;
+  late Animation<Offset> bmicalc_animation;
 
   @override
   void initState() {
@@ -74,11 +75,17 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       end: Offset.zero,
     ).animate(animationController);
 
+    bmicalc_animation = Tween<Offset>(
+      begin: Offset(0, -5),
+      end: Offset.zero,
+    ).animate(animationController);
+
     animationController.forward();
   }
 
   @override
   Widget build(BuildContext context) {
+    double _width = MediaQuery.of(context).size.width;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -89,14 +96,22 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               padding: const EdgeInsets.all(15),
               child: Column(
                 children: [
-                  Center(
+                  SlideTransition(
+                    position: bmicalc_animation,
+                    child: Container(
+                      alignment: Alignment.center,
+                      height: 70,
+                      width: _width,
+                      color: Colors.pink,
                       child: Text(
-                    bmiCalculator,
-                    style: const TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.white),
-                  )),
+                        bmiCalculator,
+                        style: const TextStyle(
+                            fontSize: 28,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.white),
+                      ),
+                    ),
+                  ),
                   const SizedBox(
                     height: 15,
                   ),
