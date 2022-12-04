@@ -9,9 +9,6 @@ A BMI Calculator App Project in Flutter
 
 ## Screenshot
 
-
-
-
 https://user-images.githubusercontent.com/111499824/194913648-eb4c7c16-dc25-4f5b-82f9-64b28e0d88cc.mp4
 
 
@@ -20,7 +17,3 @@ https://user-images.githubusercontent.com/111499824/194913648-eb4c7c16-dc25-4f5b
 
 
 
-<img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221201_134123.png" style=" height:550px; " data-target="animated-image.originalImage"><img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221201_134131.png" style=" height:550px; " data-target="animated-image.originalImage">
-<img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221202_154232.png" style=" height:550px; " data-target="animated-image.originalImage"><img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221201_134123.png" style=" height:550px; " data-target="animated-image.originalImage">
-<img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221201_134131.png" style=" height:550px; " data-target="animated-image.originalImage">
-<img src="https://github.com/RomitKatrodiya/Food_Ordering_System_App/blob/master/screenshots/Screenshot_20221201_135604.png" style=" height:550px; " data-target="animated-image.originalImage">
